@@ -56,15 +56,39 @@
 		C346917625842EBB00EEF1AB /* WindowShopper */ = {
 			isa = PBXGroup;
 			children = (
+				C346918F2585661D00EEF1AB /* Control */,
+				C346918D2585660C00EEF1AB /* Model */,
+				C346918C258565FA00EEF1AB /* View */,
 				C346917725842EBB00EEF1AB /* AppDelegate.swift */,
 				C346917925842EBB00EEF1AB /* SceneDelegate.swift */,
-				C346917B25842EBB00EEF1AB /* ViewController.swift */,
 				C346917D25842EBB00EEF1AB /* Main.storyboard */,
 				C346918025842EBF00EEF1AB /* Assets.xcassets */,
 				C346918225842EBF00EEF1AB /* LaunchScreen.storyboard */,
 				C346918525842EBF00EEF1AB /* Info.plist */,
 			);
 			path = WindowShopper;
+			sourceTree = "<group>";
+		};
+		C346918C258565FA00EEF1AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C346918D2585660C00EEF1AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C346918F2585661D00EEF1AB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				C346917B25842EBB00EEF1AB /* ViewController.swift */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

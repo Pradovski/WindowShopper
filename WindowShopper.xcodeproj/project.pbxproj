@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3075D7E258586A100F9EA15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3075D7D258586A100F9EA15 /* CustomTextField.swift */; };
+		C327DEBD2586A967002286BB /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327DEBC2586A967002286BB /* Wage.swift */; };
 		C346917825842EBB00EEF1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346917725842EBB00EEF1AB /* AppDelegate.swift */; };
 		C346917A25842EBB00EEF1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346917925842EBB00EEF1AB /* SceneDelegate.swift */; };
 		C346917C25842EBB00EEF1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346917B25842EBB00EEF1AB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		C3075D7D258586A100F9EA15 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C327DEBC2586A967002286BB /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		C346917425842EBB00EEF1AB /* WindowShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C346917725842EBB00EEF1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C346917925842EBB00EEF1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		C346918D2585660C00EEF1AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C327DEBC2586A967002286BB /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				C3075D7E258586A100F9EA15 /* CustomTextField.swift in Sources */,
 				C346917C25842EBB00EEF1AB /* ViewController.swift in Sources */,
+				C327DEBD2586A967002286BB /* Wage.swift in Sources */,
 				C346917825842EBB00EEF1AB /* AppDelegate.swift in Sources */,
 				C346917A25842EBB00EEF1AB /* SceneDelegate.swift in Sources */,
 			);

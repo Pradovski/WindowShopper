@@ -8,7 +8,7 @@
 import Foundation
 
 struct Wage {
-    static func getHours(hourlyWage: Double, itemPrice: Double) -> Int {
-        return Int(ceil(itemPrice/hourlyWage))
-    }
+    static func getHours(hourlyWage: Double, itemPrice: Double) -> Int? {
+        return hourlyWage == 0 ? nil : Int(ceil(itemPrice/hourlyWage))
+     }
 }
